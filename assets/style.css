@@ -1,0 +1,41 @@
+* {
+    -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+}
+
+
+/* see the basic structure */
+body {
+    border: 1px solid red;
+    margin: 0 auto;
+}
+
+/* page layout >>>>>>>>>>>>>>>*/
+
+#header {
+    position: fixed;
+    width: 100%;
+}
+
+.part {
+    display: inline-block;
+    height: 20px;
+    width: 30%;
+}
+
+.part1 {
+    background: red;
+    
+}
+
+.part2{
+    
+    background:blue;
+}
+
+.part3{
+    background:yellow;
+}
+
+/* page layout ===============*/
