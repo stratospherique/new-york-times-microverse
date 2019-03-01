@@ -43,9 +43,10 @@ body {
 #content {
     float: left;
     width: 70%;
-    height:2000px;
+   
     background: green;
     margin-top:30px;
+    margin-bottom: 30px;
 }
 
 .sidebars {
@@ -65,4 +66,10 @@ body {
 }
 
 
+
 /* page layout ===============*/
+
+.theory-part{
+   
+    overflow: hidden;
+}
