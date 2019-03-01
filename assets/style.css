@@ -23,12 +23,17 @@ body {
     float:left;
     display: inline-block;
     height: 100%;
+    margin:4 0 0 0;
 }
 
 .one {
     background: red;
     width:30%;
-}
+    }
+
+.list li{
+	display:inline-block;
+	}
 
 .two{
     background:blue;
