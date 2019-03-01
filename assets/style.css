@@ -19,23 +19,24 @@ body {
 }
 
 .part {
+    float:left;
     display: inline-block;
     height: 20px;
-    width: 30%;
 }
 
-.part1 {
+.one {
     background: red;
-    
+    width:30%;
 }
 
-.part2{
-    
+.two{
     background:blue;
+    width:40%;
 }
 
-.part3{
+.three{
     background:yellow;
+    width:30%;
 }
 
 /* page layout ===============*/
