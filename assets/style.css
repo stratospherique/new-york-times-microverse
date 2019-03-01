@@ -78,9 +78,30 @@ body {
     width:30%;
 }
 
+.three :nth-child(2){
+    margin-right: 4px;
+   
+}
+
+.three :nth-child(3){
+   
+}
+
 .top-button {
 	float: right;
-	margin-right: 20px;
+    margin-right: 20px;
+    margin-top: 1%;
+    border-radius: 4px;
+     background: #6288a5;
+    padding: 6px;
+    color: white;
+    font-weight: 700;
+    font-size: 10px;
+    
+}
+
+.top-button:hover {
+    background: #36688e;
 }
 
 
