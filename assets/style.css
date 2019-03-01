@@ -16,12 +16,13 @@ body {
 #header {
     position: fixed;
     width: 100%;
+    height: 30px;
 }
 
 .part {
     float:left;
     display: inline-block;
-    height: 20px;
+    height: 100%;
 }
 
 .one {
@@ -38,5 +39,30 @@ body {
     background:yellow;
     width:30%;
 }
+
+#content {
+    float: left;
+    width: 70%;
+    height:2000px;
+    background: green;
+    margin: 0;
+}
+
+.sidebars {
+    float: left;
+    width:30%;
+    height: 500px;
+    background: lightcoral;
+    margin: 0;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    height: 30px;
+    background: peru;
+    width: 100%;
+}
+
 
 /* page layout ===============*/
