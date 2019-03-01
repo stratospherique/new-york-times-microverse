@@ -1,4 +1,4 @@
-* {
+* {   	
     -webkit-box-sizing: border-box;
    -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
@@ -7,10 +7,8 @@
 
 /* see the basic structure */
 body {
-    border: 1px solid red;
-    margin: 0 auto;
+   margin: 0 auto;
 }
-
 /* page layout >>>>>>>>>>>>>>>*/
 
 #header {
@@ -19,6 +17,7 @@ body {
     width: 100%;
     height: 40px;
     background: white;
+    border-bottom: 1px solid grey;
    }
 
 .part {
@@ -44,7 +43,8 @@ body {
 }
 
 .list {
-        margin: 11px 0 0 0;
+	margin: 11px 0 0 0;
+	padding:0;
 }
 
 .list li{
@@ -93,31 +93,35 @@ body {
     margin-top: 1%;
     border-radius: 4px;
      background: #6288a5;
-    padding: 6px;
+    padding: 11px 12px 9px 12px;
     color: white;
     font-weight: 700;
-    font-size: 10px;
-    
+    font-size: 11px;
+    border: solid 1px;
+    cursor: pointer;    
 }
 
 .top-button:hover {
-    background: #36688e;
+    background: #36688e;   
 }
-
-
 
 #content {
     float: left;
-    width: 70%;
-   
+    width: 90%;
     background: green;
     margin-top:30px;
     margin-bottom: 30px;
 }
 
+.photo img {
+margin-left: 10%;
+width: 80%;
+
+}
+
 .sidebars {
     float: left;
-    width:30%;
+    width:10%;
     height: 500px;
     background: lightcoral;
     margin: 0;
