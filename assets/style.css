@@ -295,7 +295,7 @@ right:15%;
 	width:250px;
 }
 .box8{
-    left:92%;
+    left:80%;
     width: 190px;
 }
 
@@ -307,13 +307,45 @@ right:15%;
     font-weight: 100;
 }
 
+.larry{
+	margin-bottom: 50px;
+}
+
+.youtube{
+	width:100%;
+}
+
+.stanford1{
+	color:gray;
+}
+
+.stanford2{
+	color:lightgrey;
+}
+
 .telescope{
 	width:100%;
 }
 
+.telescope1{
+	color:gray;
+}
+
+.telescope2{
+	color:lightgray;
+}
+
+.social-icons{
+	margin:0;
+}
+
+.icons{
+	display:inline-block;
+}
+
 hr {
-    width: 40px;
-    color:black;
+	width: 10%;
+	border:1px solid black;
     margin: 0;
 }
 
