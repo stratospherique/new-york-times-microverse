@@ -147,13 +147,25 @@ right:15%;
 }
 
 .photo :nth-child(3){
-	margin-top: 10px;
+	margin-top: 4px;
 	color:lightgrey;
+	font-size:12px;
 }
 
 .head {
     margin: 50px auto;
 }
+
+.author span{
+	font-size: 14px;
+}
+.author a{
+	text-decoration: none;
+	color:black;
+	font-weight: bold;
+	font-size: 14px;
+}
+
 
 .date{
 	display:inline-block;
@@ -163,14 +175,17 @@ right:15%;
 	display:inline-block;
 	width:100%;
 	position:relative;
-	
 }
 
 .media{
-	display:inline-block;
+    display:inline-block;
     float: right;
     margin: 0 auto;
     list-style: none;
+}
+
+.date{
+	margin-top:12px;
 }
 
 .media li {
@@ -180,9 +195,10 @@ right:15%;
 
 .rounded i {
     background: lightgray;
-    padding: 7px;
+    padding: 12px;
     border-radius: 50%;
     cursor: pointer;
+    border:1px solid white;
 }
 
 .rounded i:hover {
@@ -190,11 +206,11 @@ right:15%;
     border: 1px solid gray;
 }
 
-/* .cap{
-	position:relative;
-	right: 240px;
-	width:
-} */
+.noround{
+	cursor:pointer;
+}
+
+
 
 .sidebars {
     float: left;
@@ -222,3 +238,6 @@ right:15%;
     overflow: hidden;
 }
 
+.telescope{
+	width:100%;
+}
