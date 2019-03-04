@@ -336,7 +336,10 @@ right:15%;
 }
 
 .social-icons{
-	margin:0;
+    margin:0;
+    display: inline-block;
+    float: right;
+    width: 27%;
 }
 
 .icons{
@@ -349,6 +352,19 @@ hr {
     margin: 0;
 }
 
+.top-text {
+    display: block;
+}
+
+.content-foot button {
+    padding: 10px 15px;
+    border-radius: 6px;
+    width: 55%;
+    color:white;
+    background: #6288a5;
+    font-weight: 700;
+    cursor: pointer;
+}
 
 
 
