@@ -153,7 +153,8 @@ right:15%;
 }
 
 .head {
-    margin: 50px auto;
+	margin: 50px auto;
+	
 }
 
 .author span{
@@ -232,9 +233,11 @@ right:15%;
 
 
 /* page layout ===============*/
-
+.heady{
+	position:relative;
+}
 .theory-part{
-   
+   position:relative;
     overflow: hidden;
 }
 
@@ -243,12 +246,33 @@ right:15%;
     height: 98%;
 }
 
+.box{
+	position:absolute;
+	background:peru;
+	top:0;
+	left:0;
+	width:25%;
+}
+
+.box1 {
+	left:25%;
+	background: lightblue;
+}
+
+.box2 {
+	left:50%;
+	background:lightcoral;
+}
+
+
 .telescope{
 	width:100%;
 }
 
-.box {
-    position: relative;
+
+
+
+
 }
 
 .box1 {
