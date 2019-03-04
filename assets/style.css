@@ -248,22 +248,49 @@ right:15%;
 
 .box{
 	position:absolute;
-	background:peru;
-	top:0;
-	left:0;
-	width:25%;
+	
+    width:25%;
+}
+
+.boxA{
+    top:28%;
 }
 
 .box1 {
-	left:25%;
-	background: lightblue;
+
+	left:5%;
+	
 }
 
 .box2 {
-	left:50%;
-	background:lightcoral;
+    left:32%;
+	
 }
 
+.box3 {
+    left:60%;
+}
+
+.box4{
+    left:92%;
+}
+
+.boxB {
+    top: 70%;
+}
+
+.box5{
+    left:5%;
+}
+.box6{
+    left:32%;
+}
+.box7{
+    left:60%;
+}
+.box8{
+    left:92%;
+}
 
 .telescope{
 	width:100%;
@@ -273,8 +300,4 @@ right:15%;
 
 
 
-}
 
-.box1 {
-  
-}
