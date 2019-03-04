@@ -116,18 +116,28 @@ body {
 #content {
     float: left;
     width: 40%;
-    background: green;
+
     margin-top:30px;
     margin-bottom: 30px;
+    margin-left: 40%;
    
 }
 
-
+.photo {
+	position:relative;
+	width:80%
+}
 
 .photo img {
-margin-left: 10%;
-width: 80%;
+margin:0;
+position:relative;
+right:60%;
+}
 
+.cap{
+	position:relative;
+	right: 240px;
+	width:
 }
 
 .sidebars {
