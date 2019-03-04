@@ -151,6 +151,10 @@ right:15%;
 	color:lightgrey;
 }
 
+.head {
+    margin: 50px auto;
+}
+
 .date{
 	display:inline-block;
 }
@@ -164,7 +168,26 @@ right:15%;
 
 .media{
 	display:inline-block;
-	float: right;
+    float: right;
+    margin: 0 auto;
+    list-style: none;
+}
+
+.media li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.rounded i {
+    background: lightgray;
+    padding: 7px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.rounded i:hover {
+    background: white;
+    border: 1px solid gray;
 }
 
 /* .cap{
