@@ -138,9 +138,33 @@ right:15%;
    position: inherit; 
    right: 15%;
    display: block;
-   width: 700px;
-   margin: 0;
-   
+   width: 750px;
+   color:gray;
+}
+
+.photo :nth-child(2){
+	margin-top: 10px;
+}
+
+.photo :nth-child(3){
+	margin-top: 10px;
+	color:lightgrey;
+}
+
+.date{
+	display:inline-block;
+}
+
+.social{
+	display:inline-block;
+	width:100%;
+	position:relative;
+	
+}
+
+.media{
+	display:inline-block;
+	float: right;
 }
 
 /* .cap{
