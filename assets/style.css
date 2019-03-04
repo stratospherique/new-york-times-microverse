@@ -248,35 +248,31 @@ right:15%;
 
 .box{
 	position:absolute;
-	
-    width:25%;
-}
-
-.boxA{
-    top:28%;
+	top:28%;
+    
 }
 
 .box1 {
-
-	left:5%;
-	
+	left:0;
+	width:250px;
 }
 
 .box2 {
-    left:32%;
-	
+    left:265px;
+	width:200px;
 }
 
 .box3 {
-    left:60%;
+	left:480px;
+	width:250px;
 }
 
 .box4{
-    left:92%;
+    left:750px;
 }
 
 .boxB {
-    top: 70%;
+    top: 68%;
 }
 
 .box5{
