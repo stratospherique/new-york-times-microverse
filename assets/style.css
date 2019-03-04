@@ -234,8 +234,14 @@ right:15%;
 
 /* page layout ===============*/
 .heady{
-	position:relative;
+    position:relative;
 }
+
+.heady p{
+    font-weight: 100;
+    color:gray;
+}
+
 .theory-part{
    position:relative;
     overflow: hidden;
@@ -269,30 +275,47 @@ right:15%;
 
 .box4{
     left:750px;
+    width: 190px;
 }
 
 .boxB {
-    top: 68%;
+    top: 70%;
 }
 
 .box5{
-    left:5%;
+    left:0;
+	width:250px;
 }
 .box6{
-    left:32%;
+    left:265px;
+	width:200px;
 }
 .box7{
-    left:60%;
+    left:480px;
+	width:250px;
 }
 .box8{
     left:92%;
+    width: 190px;
+}
+
+.box span {
+    font-weight: bold;
+}
+
+.box p {
+    font-weight: 100;
 }
 
 .telescope{
 	width:100%;
 }
 
-
+hr {
+    width: 40px;
+    color:black;
+    margin: 0;
+}
 
 
 
