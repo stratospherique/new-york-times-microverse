@@ -366,5 +366,7 @@ hr {
     cursor: pointer;
 }
 
-
+.lowest-footer{
+	clear: both;
+}
 
