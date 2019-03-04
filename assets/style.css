@@ -238,6 +238,19 @@ right:15%;
     overflow: hidden;
 }
 
+.theory-part img {
+    width: 970px;
+    height: 98%;
+}
+
 .telescope{
 	width:100%;
+}
+
+.box {
+    position: relative;
+}
+
+.box1 {
+  
 }
