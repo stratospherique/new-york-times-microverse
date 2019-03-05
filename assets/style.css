@@ -229,6 +229,7 @@ right:40%;
 .sidebars p {
    /* display: inline-block; */
    float: left;
+   cursor: pointer;
 }
 
 .sidebars p {
@@ -315,7 +316,7 @@ right:40%;
 
 .theory-part{
    position:relative;
-    overflow: hidden;
+    overflow: scroll;
 }
 
 .theory-part img {
@@ -471,6 +472,10 @@ hr {
 	font-weight:bold;
 }
 
+.foot-column hr {
+    width:135%;
+}
+
 .column{
 	list-style: none;
 	padding:0;
@@ -510,7 +515,7 @@ hr {
 
 .low-ban hr {
     margin-left: 3%;
-    width: 93%;
+    width: 94%;
 }
 
 .low-ban a:hover {
