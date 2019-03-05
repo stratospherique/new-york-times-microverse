@@ -389,7 +389,8 @@ hr {
 
 .foot-column {
     float: left;
-    width:15%;
+	width:15%;
+	
 }
 
 .foot-column span {
@@ -425,7 +426,17 @@ hr {
     font-weight: bold;
 }
 
-.right-top :nth-child(1){
-    list-style-image: url();
+.right-low hr {
+	width: 100%;
+	border-top:1px solid lightgray;
 }
 
+.bot{
+	margin-right: 6px;
+}
+
+.last{
+	margin-left: 5%;
+	padding-left: 15px;
+	border-left: 1px solid gray;
+}
