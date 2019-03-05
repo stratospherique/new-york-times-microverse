@@ -369,11 +369,14 @@ hr {
 .lowest-footer{
     clear: both;
     background: gray;
-    margin:0;
+	margin:0;
+	margin-left:3%;
+	margin-right:3%;
 }
 
 .lowest-footer hr {
-    width:100%;
+	width:100%;
+
 }
 
 .nyt {
@@ -385,6 +388,18 @@ hr {
     width:15%;
 }
 
+.foot-column span {
+	font-weight:bold;
+}
+
+.column{
+	list-style: none;
+	padding:0;
+}
+
+.column a {
+	text-decoration: none;
+}
 
 
 .low-ban {
@@ -392,7 +407,8 @@ hr {
 }
 
 .low-ban li {
-    display: inline-block;
+	display: inline-block;
+	
 }
 
 
