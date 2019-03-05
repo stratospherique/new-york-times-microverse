@@ -367,6 +367,33 @@ hr {
 }
 
 .lowest-footer{
-	clear: both;
+    clear: both;
+    background: gray;
+    margin:0;
 }
+
+.lowest-footer hr {
+    width:100%;
+}
+
+.nyt {
+    display: block;
+}
+
+.foot-column {
+    float: left;
+    width:15%;
+}
+
+
+
+.low-ban {
+    clear: both;
+}
+
+.low-ban li {
+    display: inline-block;
+}
+
+
 
