@@ -368,19 +368,23 @@ hr {
 
 .lowest-footer{
     clear: both;
-    background: gray;
-	margin:0;
+    margin-top: 10px;
 	margin-left:3%;
 	margin-right:3%;
 }
 
-.lowest-footer hr {
-	width:100%;
-
+.lowest-footer>hr {
+    width:100%;
+    margin-bottom: 1%;
 }
 
 .nyt {
     display: block;
+    margin-bottom:1%;
+}
+
+.nyt img {
+    width:15%;
 }
 
 .foot-column {
@@ -398,7 +402,13 @@ hr {
 }
 
 .column a {
-	text-decoration: none;
+    text-decoration: none;
+    color:black;
+    font-weight: 100;
+}
+
+.column a:hover {
+    text-decoration: underline;
 }
 
 
@@ -411,5 +421,11 @@ hr {
 	
 }
 
+.right-top a {
+    font-weight: bold;
+}
 
+.right-top :nth-child(1){
+    list-style-image: url();
+}
 
