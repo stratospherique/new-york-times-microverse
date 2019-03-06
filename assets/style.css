@@ -131,6 +131,10 @@ main{
  margin-left: 30%;   
 }
 
+.title h1 {
+    margin-left: 25%;
+}
+
 .photo {
 	position:relative;
 	width:80%
@@ -142,7 +146,7 @@ position:relative;
 right:0;
 }
 
-.photo span {
+.photo figcaption {
    position: inherit; 
    right: 0;
    display: block;
@@ -240,7 +244,7 @@ right:0;
 
 .editors {
     position: relative;
-    top:1300px;
+    top:204vh;
 	width:100%;
 	
 }
@@ -258,7 +262,7 @@ right:0;
 
 .science {
     position: relative;
-	top:3000px;
+	top:470vh;
 	width:60%;
 	right:35px;
 }
@@ -405,6 +409,10 @@ right:0;
 	color:lightgrey;
 }
 
+.article-text figure {
+    margin: 0;
+}
+
 .telescope{
 	width:100%;
 }
@@ -419,7 +427,7 @@ right:0;
 
 .social-icons{
     margin:0;
-    display: inline-block;
+  
     float: right;
 	width: 35%;
 	padding:0;
