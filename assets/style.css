@@ -118,26 +118,20 @@ header{
     background: #36688e;   
 }
 
-#left-sidebar {
-    float: left;
-    width: 20%;
-    background: black;
-    height: 50px;
-    margin: 30px 0;
-}
+
 
 #content {
-    /* float: left; */
+   /* float: left;  */
     width: 60%;
     margin-top:30px;
     margin-bottom: 30px;
-	margin-left: 10%;
-	margin-right: 10%;
-   
+	margin-left: 20%;
+	margin-right: 20%;
 }
 
 .article {
- margin-left: 30%;   
+ margin-left: 15%;
+ margin-right: 15%;   
 }
 
 .title h1 {
@@ -238,7 +232,7 @@ right:0;
 /* 	width:20%;
 	position:absolute;
 	right:25px; */
-	float: left;
+	float: right;
     width:20%;
 	margin: 30px 0;
 
@@ -468,9 +462,11 @@ hr {
     cursor: pointer;
 }
 
+
+
 .lowest-footer{
-    clear: both;
-    margin-top: 10px;
+    
+   /* margin-top: 10px; */
 	margin-left:3%;
 	margin-right:3%;
 }
@@ -490,7 +486,9 @@ hr {
 }
 
 .foot-column {
-    float: left;
+   /* float: left; */
+   display: inline-block;
+   vertical-align: top;
 	width:15%;
 	
 }
