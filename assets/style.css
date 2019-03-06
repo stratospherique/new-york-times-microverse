@@ -122,11 +122,12 @@ header{
 
 #content {
    /* float: left;  */
+   display: inline-block;
     width: 60%;
     margin-top:30px;
     margin-bottom: 30px;
 	margin-left: 20%;
-	margin-right: 20%;
+	/* margin-right: 20%; */
 }
 
 .article {
@@ -140,18 +141,19 @@ header{
 
 .photo {
 	position:relative;
-	width:80%
+	width:100%;
+	margin:0;
 }
 
 .photo img {
 margin:0;
 position:relative;
-right:0;
+right:15%;
 }
 
 .photo figcaption {
    position: inherit; 
-   right: 0;
+   right: 15%;
    display: block;
    width: 750px;
    color:gray;
@@ -232,8 +234,10 @@ right:0;
 /* 	width:20%;
 	position:absolute;
 	right:25px; */
-	float: right;
-    width:20%;
+	/* float: right; */
+	vertical-align: top;
+	display: inline-block;
+    width:19%;
 	margin: 30px 0;
 
 }
@@ -267,7 +271,9 @@ right:0;
     position: relative;
 	top:470vh;
 	width:60%;
-	right:35px;
+	margin-left: 20%;
+	margin-right:20%;
+	
 }
 
 .science button{
